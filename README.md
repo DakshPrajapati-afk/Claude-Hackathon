@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI Prediction Tool
 
 An AI-powered prediction tool that uses web-scraped data from reputable sources to provide confidence scores for user queries.
@@ -169,8 +168,15 @@ Health check endpoint.
 - Implement rate limiting and caching
 
 ## License
-
 MIT
+
+## Team members
+1. Daksh Prajapati
+2. Vijeth Chichili
+3. Nikhil Balabhadra
+4. Teresa Nguyen
+5. Shashota Saha
 =======
-# Claude-Hackathon
->>>>>>> main
+# HackASU_ANTHROPIC @ASU
+# Track: Polymarket
+# https://claudebuilder.club/hackathon
