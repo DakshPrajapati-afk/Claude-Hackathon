@@ -176,7 +176,8 @@ MIT
 3. Nikhil Balabhadra
 4. Teresa Nguyen
 5. Shashota Saha
+   
 =======
 # HackASU_ANTHROPIC @ASU
-# Track: Polymarket
-# https://claudebuilder.club/hackathon
+Track: Polymarket
+https://claudebuilder.club/hackathon
