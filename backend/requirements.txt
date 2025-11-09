@@ -4,3 +4,7 @@ anthropic==0.40.0
 python-dotenv==1.0.0
 requests==2.31.0
 beautifulsoup4==4.12.2
+sqlalchemy>=2.0.35
+textblob==0.17.1
+newsapi-python==0.2.7
+lxml==5.3.0
