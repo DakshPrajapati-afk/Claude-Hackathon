@@ -127,13 +127,13 @@ function App() {
               </span>
               <span className="text-gray-600">•</span>
               <span className="flex items-center gap-1">
-                <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
-                Reddit
+                <span className="w-2 h-2 rounded-full bg-purple-500 animate-pulse"></span>
+                Yahoo Finance
               </span>
               <span className="text-gray-600">•</span>
               <span className="flex items-center gap-1">
-                <span className="w-2 h-2 rounded-full bg-purple-500 animate-pulse"></span>
-                Yahoo Finance
+                <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
+                MarketWatch
               </span>
             </div>
           </div>
