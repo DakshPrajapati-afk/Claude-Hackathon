@@ -23,7 +23,7 @@ function App() {
 
     try {
       const API_URL = process.env.REACT_APP_API_URL;
-      const response = await axios.post('$(REACT_APP_API_URL)/api/predict', {
+      const response = await axios.post('$(API_URL)/api/predict', {
         query: query
       });
       setResult(response.data);
