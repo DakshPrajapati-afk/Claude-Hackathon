@@ -8,3 +8,6 @@ sqlalchemy>=2.0.35
 textblob==0.17.1
 newsapi-python==0.2.7
 lxml==5.3.0
+praw==7.7.1
+yfinance==0.2.28
+google-api-python-client==2.108.0
