@@ -22,7 +22,7 @@ function App() {
     setShowResult(false);
 
     try {
-      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+      const API_URL = process.env.REACT_APP_API_URL';
       const response = await axios.post('$(REACT_APP_API_URL)/api/predict', {
         query: query
       });
