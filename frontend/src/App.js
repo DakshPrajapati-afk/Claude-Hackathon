@@ -22,7 +22,9 @@ function App() {
     setShowResult(false);
 
     try {
-      const response = await axios.post('http://localhost:5001/api/predict', {
+      // Use deployed backend URL from environment variable, fallback to localhost for development
+      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+      const response = await axios.post(`${API_URL}/api/predict`, {
         query: query
       });
       setResult(response.data);
