@@ -935,4 +935,13 @@ def debug_sources():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001, host='127.0.0.1')
+    # Use PORT environment variable for production (Render, Heroku, etc.)
+    # Default to 5001 for local development
+    port = int(os.environ.get('PORT', 5001))
+    # Use debug=True for local, False for production
+    debug_mode = os.environ.get('FLASK_ENV') != 'production'
+    # Use 0.0.0.0 for production (allows external connections)
+    # Use 127.0.0.1 for local (localhost only)
+    host = '0.0.0.0' if os.environ.get('FLASK_ENV') == 'production' else '127.0.0.1'
+    
+    app.run(debug=debug_mode, port=port, host=host)

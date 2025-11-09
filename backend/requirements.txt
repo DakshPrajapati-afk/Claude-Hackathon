@@ -11,3 +11,4 @@ lxml==5.3.0
 praw==7.7.1
 yfinance==0.2.28
 google-api-python-client==2.108.0
+gunicorn==21.2.0
